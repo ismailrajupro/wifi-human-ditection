@@ -1,0 +1,16 @@
+menu "CSI Receiver Configuration"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "myssid"
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "mypassword"
+
+    config ESP_WIFI_CHANNEL
+        int "WiFi Channel (1-11)"
+        range 1 11
+        default 6
+
+endmenu
