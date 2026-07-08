@@ -278,3 +278,4 @@ State transitions are debounced by `min_duration` to prevent flutter.
 
 MIT
 "# wifi-human-ditection" 
+"# wifi-human-ditection" 
